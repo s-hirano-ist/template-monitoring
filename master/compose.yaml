@@ -11,6 +11,8 @@ services:
       - metrics_data:/prometheus
     command:
       - "--config.file=/etc/prometheus/prometheus.yaml"
+    ports:
+      - "9090:9090"
     restart: always
     networks:
       - monitoring
