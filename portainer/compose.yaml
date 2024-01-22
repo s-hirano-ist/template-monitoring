@@ -21,7 +21,6 @@ services:
 
 volumes:
   portainer_data:
-  websrv-data:
 
 networks:
   monitoring:
